@@ -14,10 +14,16 @@ import {
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Film, User as UserIcon } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export function Header() {
-  const { user, logout } = useAuth();
+  const { user, logout, isLoading } = useAuth();
   const router = useRouter();
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const handleLogout = () => {
     logout();
@@ -34,7 +40,7 @@ export function Header() {
           </span>
         </Link>
         <div>
-          {user ? (
+          {isClient && user ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="relative h-8 w-8 rounded-full">
