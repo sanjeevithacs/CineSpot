@@ -14,8 +14,7 @@ type ConfirmationPageProps = {
   params: { bookingId: string };
 };
 
-export default function ConfirmationPage({ params }: ConfirmationPageProps) {
-  const { bookingId } = params;
+export default function ConfirmationPage({ params: { bookingId } }: ConfirmationPageProps) {
   const [allBookings] = useLocalStorage<Booking[]>("userBookings", []);
   const [booking, setBooking] = useState<Booking | null | undefined>(undefined);
   const router = useRouter();
