@@ -15,14 +15,15 @@ type ConfirmationPageProps = {
 };
 
 export default function ConfirmationPage({ params }: ConfirmationPageProps) {
+  const { bookingId } = params;
   const [allBookings] = useLocalStorage<Booking[]>("userBookings", []);
   const [booking, setBooking] = useState<Booking | null | undefined>(undefined);
   const router = useRouter();
 
   useEffect(() => {
-    const foundBooking = allBookings.find(b => b.id === params.bookingId);
+    const foundBooking = allBookings.find(b => b.id === bookingId);
     setBooking(foundBooking || null);
-  }, [allBookings, params.bookingId]);
+  }, [allBookings, bookingId]);
 
   if (booking === undefined) {
     return (
