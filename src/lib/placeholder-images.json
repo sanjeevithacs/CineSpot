@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "leo",
+      "description": "Poster for the movie Leo",
+      "imageUrl": "https://images.unsplash.com/photo-1645808651017-c5e3018553c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhY3Rpb24lMjBtb3ZpZXxlbnwwfHx8fDE3NjU5NDQ1NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "action movie"
+    },
+    {
+      "id": "vikram",
+      "description": "Poster for the movie Vikram",
+      "imageUrl": "https://images.unsplash.com/photo-1762115445557-967c1504ffe9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx0aHJpbGxlciUyMG1vdmllfGVufDB8fHx8MTc2NTk2MDM2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "thriller movie"
+    },
+    {
+      "id": "jailer",
+      "description": "Poster for the movie Jailer",
+      "imageUrl": "https://images.unsplash.com/photo-1517486518908-97a5f91b325f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZHJhbWElMjBtb3ZpZXxlbnwwfHx8fDE3NjYwMzk4ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "drama movie"
+    },
+    {
+      "id": "ponniyin-selvan",
+      "description": "Poster for the movie Ponniyin Selvan",
+      "imageUrl": "https://images.unsplash.com/photo-1634733916187-ad2dbb8b798f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoaXN0b3JpY2FsJTIwZmlsbXxlbnwwfHx8fDE3NjYwNDE5ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "historical film"
+    },
+    {
+      "id": "master",
+      "description": "Poster for the movie Master",
+      "imageUrl": "https://images.unsplash.com/photo-1653862493335-8b70013f6967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjcmltZSUyMGFjdGlvbnxlbnwwfHx8fDE3NjYwNDA5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "crime action"
+    },
+    {
+      "id": "soorarai-pottru",
+      "description": "Poster for the movie Soorarai Pottru",
+      "imageUrl": "https://picsum.photos/seed/spottru/400/600",
+      "imageHint": "biographical drama"
+    }
+  ]
 }
