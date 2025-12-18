@@ -36,7 +36,7 @@ export function Header() {
         <Link href="/" className="flex items-center gap-2">
           <Film className="h-6 w-6 text-primary" />
           <span className="font-headline text-xl font-bold tracking-tight">
-            CBE ShowTime
+            CineSpot
           </span>
         </Link>
         <div>
