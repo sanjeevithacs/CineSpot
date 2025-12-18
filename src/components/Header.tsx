@@ -19,10 +19,10 @@ import { useEffect, useState } from "react";
 export function Header() {
   const { user, logout, isLoading } = useAuth();
   const router = useRouter();
-  const [isClient, setIsClient] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
-    setIsClient(true);
+    setIsMounted(true);
   }, []);
 
   const handleLogout = () => {
@@ -40,7 +40,7 @@ export function Header() {
           </span>
         </Link>
         <div>
-          {isClient && user ? (
+          {isMounted && user ? (
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="relative h-8 w-8 rounded-full">
