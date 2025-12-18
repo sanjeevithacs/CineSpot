@@ -56,7 +56,7 @@ export default function HomePage() {
           <div className="mx-auto bg-primary rounded-full p-3 w-fit mb-4">
             <Film className="h-8 w-8 text-primary-foreground" />
           </div>
-          <CardTitle className="font-headline text-3xl">Welcome to CBE ShowTime</CardTitle>
+          <CardTitle className="font-headline text-3xl">Welcome to CineSpot</CardTitle>
           <CardDescription>Select your city to begin</CardDescription>
         </CardHeader>
         <CardContent>
